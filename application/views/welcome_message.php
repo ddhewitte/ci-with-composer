@@ -82,6 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			}
 			?>
 		</table>
+		<a href="<?php echo site_url('welcome/pdf');?>">Download as PDF</a>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
